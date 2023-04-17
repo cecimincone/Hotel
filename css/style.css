@@ -1,0 +1,124 @@
+/*reset minimo-(responsing se adapta a todo)-*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*em   se adapta a una medida ,mejor que el pordentaje a letras y extos en relación al padre*/
+/*rem cojera elemento (parte)raíz de html*/
+html body {
+
+    line-height: 1.7em;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/*utilidades*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.btn {
+    background-color: #fff;
+    color: #333;
+    padding: 12px 20px;
+    display: inline-block;
+    border-radius: 4px;
+
+}
+
+.btn:hover {
+    background-color: #f7c08a;
+    color: #333;
+}
+
+/*nav bar*/
+
+#top-menu {
+    background-color: #333;
+    color: #fff;
+}
+
+#top-menu a {
+
+    color: #fff;
+}
+
+#top-menu h1 {
+    float: left;
+    padding: 20px;
+}
+
+#top-menu ul {
+    float: right;
+    list-style: none;
+}
+
+#top-menu ul li {
+    float: left;
+}
+
+#top-menu ul li a {
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+#top-menu ul li a:hover {
+
+    background-color: #444;
+    color: #f7c08a;
+
+}
+
+/*showcase*/
+
+#showcase {
+    height: 600px;
+    background: url("../imagenes_random_hotel/showcase.jpg") no-repeat center center/cover;
+}
+
+#showcase.showcase-content {
+
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+    border-radius: 4px;
+    cursor: move;
+}
+
+
+#showcase.showcase-content h2 {
+    font-size: 2em;
+
+}
+
+#showcase.showcase-content p {
+    font-size: 1.5em;
+
+}
